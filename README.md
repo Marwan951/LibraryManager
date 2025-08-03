@@ -18,7 +18,7 @@ JavaDataEngine/
 ├── src/                       # Source code directory
 │   ├── Book.java              # Book model
 │   ├── Library.java           # Core logic: data loading, searching
-│   ├── SortUtil.java          # Sorting utilities (bubble sort)
+│   ├── SortUtil.java          # Sorting utilities (Insertion, bubble sort)
 │   ├── LibraryMenu.java       # Text-based menu logic
 │   ├── UserLogger.java        # User interaction logger
 │   ├── LibrarySerializer.java # Object persistence handler
@@ -45,7 +45,7 @@ By the end of this project, you will have developed a system that supports:
 
 ✅ Data Loading: Read book records from a file and populate Java objects.  
 ✅ Sorting: Organize the collection by title, author, or year using bubble sort.  
-✅ Search: Locate books by title, author, or year using case-insensitive search.  
+✅ Search: Locate books by title, author, or year using a case-insensitive search.  
 ✅ User Interaction: Navigate the system via a console-based interface.  
 ✅ Logging: Log every user action to a file for tracking/debugging.  
 ✅ Persistence: Save/load system state using serialization.
@@ -74,12 +74,12 @@ By the end of this project, you will have developed a system that supports:
 
 ## ✅ Grading Criteria (Coursera Final Assessment)
 
-| Task ID | Task Description                                       | Status       |
-|---------|--------------------------------------------------------|--------------|
-| TODO 1  | Load data from file and populate list                  | ✅ Completed |
-| TODO 2  | Implement sorting algorithm                            | ✅ Completed |
-| TODO 3  | Create flexible search function                        | ✅ Completed |
-| TODO 4  | Build text-based user interface                        | ✅ Completed |
-| TODO 5  | Log all user interactions                              | ✅ Completed |
-| TODO 6  | Serialize and deserialize the system state             | ✅ Completed |
+| Ticket ID | Task Description                                   | Status       |
+|-----------|----------------------------------------------------|--------------|
+| Ticket 1  | Load data from file and populate list              | ✅ Completed |
+| Ticket 2  | Implement sorting algorithm                        | ✅ Completed |
+| Ticket 3  | Create flexible search function                    | ✅ Completed |
+| Ticket 4  | Build text-based user interface                    | ✅ Completed |
+| Ticket 5  | Log all user interactions                          | ✅ Completed |
+| Ticket 6  | Serialize and deserialize the system state         | ✅ Completed |
 
